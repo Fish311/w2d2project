@@ -1,0 +1,51 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+  }
+
+
+.navheader {
+    background-color: #000000;
+    padding: 15px;
+}
+.navbar {
+    text-align: center;
+    text-decoration: none;
+}
+.navbar li {
+    display: inline;
+    font-size: 25px;
+    padding-right: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.navbar li:last-child {
+    padding-right: 0;
+}
+.navbar a {
+    text-decoration: none;
+    color: #FFFFFF
+}
+.header {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  background: #333333 url(images/criss-cross.png) top left repeat;
+}
+.header h1 {
+    color: #000000;
+    padding-top: 200px;
+    text-align: center;
+    font-size: 400%;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.header h2 {
+    text-align: center;
+    font-size: 200%;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.header h1, h2 {
+    line-height: 200px;
+}
